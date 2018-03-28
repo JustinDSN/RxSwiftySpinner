@@ -16,6 +16,8 @@
 		D07C3D76206B567B00B6BC13 /* RxSwiftySpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C3D75206B567B00B6BC13 /* RxSwiftySpinnerTests.swift */; };
 		D07C3D81206B62A000B6BC13 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C3D80206B62A000B6BC13 /* Event.swift */; };
 		D07C3D87206B69EB00B6BC13 /* SVProgressHUD+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C3D86206B69EB00B6BC13 /* SVProgressHUD+Rx.swift */; };
+		D07C3D89206B7B8D00B6BC13 /* GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C3D88206B7B8D00B6BC13 /* GitHubService.swift */; };
+		D0C4FA31206B85480061175F /* ShowOnError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C4FA30206B85480061175F /* ShowOnError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D07C3D77206B567B00B6BC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07C3D80206B62A000B6BC13 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		D07C3D86206B69EB00B6BC13 /* SVProgressHUD+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SVProgressHUD+Rx.swift"; sourceTree = "<group>"; };
+		D07C3D88206B7B8D00B6BC13 /* GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubService.swift; sourceTree = "<group>"; };
+		D0C4FA30206B85480061175F /* ShowOnError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowOnError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +104,13 @@
 				D07C3D60206B567B00B6BC13 /* AppDelegate.swift */,
 				D07C3D67206B567B00B6BC13 /* Assets.xcassets */,
 				D07C3D80206B62A000B6BC13 /* Event.swift */,
+				D07C3D88206B7B8D00B6BC13 /* GitHubService.swift */,
 				D07C3D6C206B567B00B6BC13 /* Info.plist */,
 				D07C3D69206B567B00B6BC13 /* LaunchScreen.storyboard */,
 				D07C3D64206B567B00B6BC13 /* Main.storyboard */,
 				D07C3D86206B69EB00B6BC13 /* SVProgressHUD+Rx.swift */,
 				D07C3D62206B567B00B6BC13 /* ViewController.swift */,
+				D0C4FA30206B85480061175F /* ShowOnError.swift */,
 			);
 			path = RxSwiftySpinner;
 			sourceTree = "<group>";
@@ -296,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C4FA31206B85480061175F /* ShowOnError.swift in Sources */,
+				D07C3D89206B7B8D00B6BC13 /* GitHubService.swift in Sources */,
 				D07C3D63206B567B00B6BC13 /* ViewController.swift in Sources */,
 				D07C3D87206B69EB00B6BC13 /* SVProgressHUD+Rx.swift in Sources */,
 				D07C3D81206B62A000B6BC13 /* Event.swift in Sources */,
